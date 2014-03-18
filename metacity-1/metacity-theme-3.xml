@@ -24,9 +24,9 @@
 <!-- geometries -->
 
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="1" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="3"/>
 	<distance name="right_titlebar_edge" value="3"/>
 	<distance name="title_vertical_pad" value="15"/>
@@ -766,7 +766,7 @@
 	<button function="stick" state="pressed"><draw_ops></draw_ops></button>
 	<button function="unstick" state="normal"><draw_ops></draw_ops></button>
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
-</frame_style>
+<padding left="5" right="5" bottom="5"/></frame_style>
 
 <frame_style name="normal_unfocused" geometry="normal">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
@@ -795,7 +795,7 @@
 	<button function="stick" state="pressed"><draw_ops></draw_ops></button>
 	<button function="unstick" state="normal"><draw_ops></draw_ops></button>
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
-</frame_style>
+<padding left="5" right="5" bottom="5"/></frame_style>
 
 <frame_style name="normal_max_focused" geometry="max">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
@@ -1088,7 +1088,7 @@
 	<button function="stick" state="pressed"><draw_ops></draw_ops></button>
 	<button function="unstick" state="normal"><draw_ops></draw_ops></button>
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
-</frame_style>
+<padding left="5" right="5" bottom="5"/></frame_style>
 
 <frame_style name="utility_unfocused" geometry="normal">
 	<piece position="entire_background" draw_ops="entire_background_unfocused" />
@@ -1117,7 +1117,7 @@
 	<button function="stick" state="pressed"><draw_ops></draw_ops></button>
 	<button function="unstick" state="normal"><draw_ops></draw_ops></button>
 	<button function="unstick" state="pressed"><draw_ops></draw_ops></button>
-</frame_style>
+<padding left="5" right="5" bottom="5"/></frame_style>
 
 <frame_style name="border_focused" geometry="border">
 	<piece position="entire_background" draw_ops="entire_background_focused" />
